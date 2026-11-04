@@ -1,0 +1,19 @@
+{
+  "name": "naukri-auto-apply",
+  "version": "1.0.0",
+  "description": "Applies to the newest Naukri jobs that match your skills and emails you a summary",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "login": "node src/index.js --login",
+    "dry-run": "node src/index.js --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14",
+    "playwright": "^1.47.0"
+  }
+}
